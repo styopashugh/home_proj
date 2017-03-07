@@ -1,0 +1,25 @@
+* {box-sizing: border-box;}
+body {font-family: 'Playfair Display', serif; margin: 0;text-align: center}
+h1 {font-weight: normal;color: #6A5953}
+kbd {font-size: 0.9em;display:inline-block;line-height:1.1;}
+.wrap {
+  display: inline-block;
+  margin: 0 40px 2em 0;
+  background: rgba(228, 225, 228, .5);
+}
+div {
+  width: 170px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+
+  transition: all 0.5s ease-in-out;
+}
+.one, .four, .seven, .ten {
+  background: rgba(135, 86, 120, .4);
+}
+.one:hover {
+
+  
+ transform: translateY(20px);
+}
